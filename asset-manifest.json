@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/seinfeld-quotes/static/css/main.71e6af6b.chunk.css",
+    "main.js": "/seinfeld-quotes/static/js/main.5ab8a574.chunk.js",
+    "main.js.map": "/seinfeld-quotes/static/js/main.5ab8a574.chunk.js.map",
+    "runtime-main.js": "/seinfeld-quotes/static/js/runtime-main.847f74aa.js",
+    "runtime-main.js.map": "/seinfeld-quotes/static/js/runtime-main.847f74aa.js.map",
+    "static/js/2.5418b764.chunk.js": "/seinfeld-quotes/static/js/2.5418b764.chunk.js",
+    "static/js/2.5418b764.chunk.js.map": "/seinfeld-quotes/static/js/2.5418b764.chunk.js.map",
+    "index.html": "/seinfeld-quotes/index.html",
+    "precache-manifest.ccea8dbfe43983de950cc099b1e03ace.js": "/seinfeld-quotes/precache-manifest.ccea8dbfe43983de950cc099b1e03ace.js",
+    "service-worker.js": "/seinfeld-quotes/service-worker.js",
+    "static/css/main.71e6af6b.chunk.css.map": "/seinfeld-quotes/static/css/main.71e6af6b.chunk.css.map",
+    "static/js/2.5418b764.chunk.js.LICENSE.txt": "/seinfeld-quotes/static/js/2.5418b764.chunk.js.LICENSE.txt",
+    "static/media/styles.scss": "/seinfeld-quotes/static/media/FeniceStd-Regular.d3282b4b.woff",
+    "static/media/cosmo-kramer-circle.jpg": "/seinfeld-quotes/static/media/cosmo-kramer-circle.cd9bc5d8.jpg",
+    "static/media/dice.png": "/seinfeld-quotes/static/media/dice.3fbcd0ef.png",
+    "static/media/elaine-benes-circle.jpg": "/seinfeld-quotes/static/media/elaine-benes-circle.8c1500b0.jpg",
+    "static/media/frank-costanza-circle.jpg": "/seinfeld-quotes/static/media/frank-costanza-circle.5587743e.jpg",
+    "static/media/george-costanza-circle.jpg": "/seinfeld-quotes/static/media/george-costanza-circle.bf9b9446.jpg",
+    "static/media/jerry-seinfeld-circle.jpg": "/seinfeld-quotes/static/media/jerry-seinfeld-circle.573bd40b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.847f74aa.js",
+    "static/js/2.5418b764.chunk.js",
+    "static/css/main.71e6af6b.chunk.css",
+    "static/js/main.5ab8a574.chunk.js"
+  ]
+}
