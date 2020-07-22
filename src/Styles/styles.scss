@@ -1,0 +1,235 @@
+@font-face {
+  font-family: "fenice";
+  src: local("fenice"), url(./fonts/FeniceStd-Regular.otf) format("opentype"),
+    url(./fonts/FeniceStd-Regular.woff2) format("woff2"),
+    url(./fonts/FeniceStd-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: "fenice-bold";
+  src: local("fenice-bold"), url(./fonts/FeniceStd-Bold.otf) format("opentype"),
+    url(./fonts/FeniceStd-Bold.woff2) format("woff2"),
+    url(./fonts/FeniceStd-Bold.woff) format("woff");
+}
+
+@font-face {
+  font-family: "fenice-oblique";
+  src: local("fenice-oblique"), url(./fonts/FeniceStd-Oblique.otf) format("opentype"),
+    url(./fonts/FeniceStd-Oblique.woff2) format("woff2"),
+    url(./fonts/FeniceStd-Oblique.woff) format("woff");
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  font-family: "fenice", serif;
+  background-color: whitesmoke;
+}
+
+a {
+  color: white;
+  font-family: "fenice-bold", serif;
+  text-decoration: none;
+  outline: 0;
+
+  &.active, &:hover, &:focus, &:active {
+    color: white;
+    text-decoration: underline;
+  }
+}
+
+
+
+main {
+  padding: 1rem;
+
+  .quote-wrap {
+    margin: auto;
+    max-width: 50rem;
+  
+    blockquote {
+      padding: 1rem 1rem 0.75rem;
+      margin: auto;
+      background-color: white;
+      border: .8rem solid #50B2C7;
+      // border-radius: 1rem;
+      position: relative;
+      
+      .text {
+        margin: 0;
+        font-family: "fenice";
+        font-size: 1.5rem;
+      }
+  
+      &:before {
+        content: '';
+        width:0; 
+        height:0; 
+        position: absolute;
+        bottom: -4rem;
+        right: 3.2rem;
+        z-index: 0;
+        border-left: 2rem solid transparent;
+        border-right: 2rem solid transparent;
+        border-top: 3.9em solid #50B2C7;
+      }
+    
+      &:after {
+        content: '';
+        width:0; 
+        height:0; 
+        position: absolute;
+        z-index: 2;
+        bottom: -2.3rem;
+        right: 4rem;
+        border-left: 1.2rem solid transparent;
+        border-right: 1.2rem solid transparent;
+        border-top: 2.4rem solid white;
+      }
+    }
+  
+    .meta {
+      margin: 4.5rem 2rem 12rem 0;
+      font-family: "fenice-obique", serif;
+      text-align: right;
+  
+      .author {
+        font-size: 2.5rem;
+        font-family: "fenice-bold", serif;
+        text-transform: uppercase;
+      }
+
+      .episode {
+        font-style: italic;
+
+        span {
+          font-family: "fenice-bold", serif;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  padding: 1rem 0.5rem 0.5rem;
+  width: 100%;
+  text-align: center;
+  background-color: #50B2C7;
+  position: fixed;
+  bottom: 1rem;
+  z-index: 9999;
+  display: flex;
+  flex-wrap: wrap;
+
+  ul {
+    padding: 0 .5rem 0 0;
+    margin: 0 auto;
+    max-width: 800px;
+    list-style-type: none;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    li {
+      margin: 0 auto;
+      font-size: 1rem;
+      text-align: center;
+      text-transform: uppercase;
+      flex: 1 1 33.33%;
+
+      a {
+
+        .img-wrap {
+          padding: 0;
+          margin: 0 auto 0.25rem;
+          height: 2.5rem;
+          width: 2.5rem;
+          border-radius: 100%;
+          border: .1rem solid black;
+          overflow: hidden;
+
+          img {
+            width: 100%;
+            background-color: white;
+            filter: grayscale(100%) brightness(75%);
+          }
+        }
+
+        &.active, &:hover, &:focus, &:active {
+
+          .img-wrap {
+            border-color: #CC2933;
+
+            img {
+              filter: grayscale(0%) brightness(100%);
+            }
+          }
+        }
+      }
+
+      &:nth-child(1) {
+        margin-bottom: 0.75rem;
+      }
+    }
+  }
+}
+
+.courtesy-link {
+  padding: 0.25rem 0;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 1;
+  background-color: #111;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  z-index: 9999;
+
+  a {
+    text-decoration: underline;
+    font-family: "fenice", serif;
+  }
+}
+
+.no-match {
+  margin-top: 6rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+
+
+@media (min-width: 40rem) {
+
+  main {
+    padding: 2rem;
+
+    .quote-wrap {
+      blockquote {
+        padding: 2rem 2rem 1.75rem;
+
+        .text {
+          font-size: 2.5rem;
+        }
+      }
+    }
+  }
+
+  footer {
+    ul {
+      li {
+        flex: 1;
+
+        a {
+          .img-wrap {
+            height: 5rem;
+            width: 5rem;
+          }
+        }
+      }
+    }
+  }
+}
