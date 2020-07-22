@@ -89,7 +89,7 @@ main {
     }
   
     .meta {
-      margin: 4.5rem 2rem 10rem 0;
+      margin: 4.5rem 2rem 12rem 0;
       font-family: "fenice-obique", serif;
       text-align: right;
   
@@ -219,6 +219,8 @@ footer {
   }
 
   footer {
+    padding-bottom: 0;
+    
     ul {
       li {
         flex: 1;

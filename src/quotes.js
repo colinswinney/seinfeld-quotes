@@ -46,7 +46,7 @@ const Quotes = [
     },
     {
       quote:
-        "What do you think a hit man would charge..to rub out a couple of cats?",
+        "What do you think a hit man would charge... to rub out a couple of cats?",
       author: "Elaine",
       season: "1",
       episode: "5",
@@ -61,7 +61,7 @@ const Quotes = [
     },
     {
       quote:
-        "Levels Jerry..levels. --  I'm getting rid of all my furniture. All of it. And I'm going to build these different levels, with steps, and it'll all be carpeted with a lot of pillows. You know, like ancient Egypt.",
+        "Levels Jerry... levels. --  I'm getting rid of all my furniture. All of it. And I'm going to build these different levels, with steps, and it'll all be carpeted with a lot of pillows. You know, like ancient Egypt.",
       author: "Kramer",
       season: "2",
       episode: "2",
@@ -91,7 +91,7 @@ const Quotes = [
     },
     {
       quote:
-        "We had a funny guy with us in Korea. A tailgunner. They blew his brains out all over the Pacific. ... There's nothing funny about that.",
+        "We had a funny guy with us in Korea. A tailgunner. They blew his brains out all over the Pacific. There's nothing funny about that.",
       author: "Alton Benes (Elaines Father)",
       season: "2",
       episode: "3",
@@ -129,7 +129,7 @@ const Quotes = [
     },
     {
       quote:
-        "So please, a little respect ... for I am Costanza -- Lord of the idiots!",
+        "So please, a little respect... for I am Costanza -- Lord of the idiots!",
       author: "George",
       season: "2",
       episode: "5",
@@ -152,7 +152,7 @@ const Quotes = [
     },
     {
       quote:
-        "You're in big trouble son. Burglary, grand larceny, possession of stolen goods.. and uh, uh.. murder!",
+        "You're in big trouble son. Burglary, grand larceny, possession of stolen goods... and uh, uh... murder!",
       author: "Kramer",
       season: "2",
       episode: "6",
@@ -192,7 +192,7 @@ const Quotes = [
     },
     {
       quote:
-        "Oh yeah? My friend, Bob Saccomanno, he came in here for a hernia operation.. Oh yeah, routine surgery.. now he's sittin' around in a chair by a window going - 'My name is Bob!'",
+        "Oh yeah? My friend, Bob Saccomanno, he came in here for a hernia operation. Oh yeah, routine surgery... now he's sittin' around in a chair by a window going - 'My name is Bob!'",
       author: "Kramer",
       season: "2",
       episode: "8",
@@ -207,7 +207,7 @@ const Quotes = [
       image: "./Images/13-4.png"
     },
     {
-      quote: " I'm an eggplant! I'm an eggplant! I'm a minstrel man!",
+      quote: "I'm an eggplant! I'm an eggplant! I'm a minstrel man!",
       author: "George",
       season: "2",
       episode: "8",
@@ -223,21 +223,21 @@ const Quotes = [
     },
     {
       quote:
-        " Look, will you at least let me bring the guy over? He's an amazing man -- He's a Russian immigrant. He escaped the Gulag! He's like the Sakharov of cable guys.. He'll slow down your gas meter.. He sells slugs! -- Jerry. Slugs for the subway!",
+        "Look, will you at least let me bring the guy over? He's an amazing man -- He's a Russian immigrant. He escaped the Gulag! He's like the Sakharov of cable guys. He'll slow down your gas meter... he sells slugs! -- Jerry. Slugs for the subway!",
       author: "Kramer",
       season: "2",
       episode: "10",
       image: "./Images/15-1.png"
     },
     {
-      quote: "My name is Bill.. You might be the last person I ever see",
+      quote: "My name is Bill... you might be the last person I ever see",
       author: "Bill",
       season: "2",
       episode: "10",
       image: "./Images/15-2.png"
     },
     {
-      quote: "Yeah I eat the whole apple.. core, stem, seeds -- everything",
+      quote: "Yeah I eat the whole apple... core, stem, seeds -- everything",
       author: "Kramer",
       season: "2",
       episode: "10",
@@ -252,7 +252,7 @@ const Quotes = [
     },
     {
       quote:
-        "You walk over that table, you pick up an eggroll, you don't say anything, you eat it, say 'thank you very much', wipe your mouth, walk away- I give you 50 bucks.",
+        "You walk over that table, you pick up an eggroll, you don't say anything, you eat it, say 'thank you very much', wipe your mouth, walk away - I give you 50 bucks.",
       author: "Jerry",
       season: "2",
       episode: "11",
@@ -303,7 +303,7 @@ const Quotes = [
       image: "./Images/19-1.png"
     },
     {
-      quote: "Kramer..saw me naked.",
+      quote: "Kramer... saw me naked.",
       author: "Elaine",
       season: "3",
       episode: "2",
@@ -349,7 +349,7 @@ const Quotes = [
     },
     {
       quote:
-        "Two-hundred seats on a plane and I gotta wind up next to Yukon Jack and his dog Cujo!",
+        "Two hundred seats on a plane and I gotta wind up next to Yukon Jack and his dog Cujo!",
       author: "Jerry",
       season: "3",
       episode: "4",
@@ -380,7 +380,7 @@ const Quotes = [
     },
     {
       quote:
-        "Let me tell you something, funny boy... You know that little stamp? The one that says New York Public Library? Well, that may not mean anything to you, but that means a lot to me. One whole helluva lot. Sure, go ahead, laugh if you want to. I've seen your type before -- flashy, making the scene, flaunting convention. Yeah, I know what you're thinking... Why's this guy making such a big stink about old library books? Let me give you a hint, junior. Maybe we can live without libraries, people like you and me.... Maybe. Sure, we're too old to change the world. What about that kid, sitting down, opening a book right now in a branch of the local library and finding pictures of pee-pees and wee-wees in The Cat in the Hat and The Five Chinese Brothers. Doesn't he deserve better? Look, if you think this is about overdue fines and missing books, you'd better think again. This is about that kid's right to read a book without getting his mind warped. Or maybe that turns you on, Seinfeld... Maybe that's how you get your kicks... You and your goodtime buddies... I've got a flash for you, joy boy. Partytime is over.",
+        "Let me tell you something, funny boy... You know that little stamp? The one that says New York Public Library? Well, that may not mean anything to you, but that means a lot to me. One whole helluva lot. Sure, go ahead, laugh if you want to. I've seen your type before -- flashy, making the scene, flaunting convention. Yeah, I know what you're thinking... Why's this guy making such a big stink about old library books? Let me give you a hint, junior. Maybe we can live without libraries, people like you and me... Maybe. Sure, we're too old to change the world. What about that kid, sitting down, opening a book right now in a branch of the local library and finding pictures of pee-pees and wee-wees in The Cat in the Hat and The Five Chinese Brothers. Doesn't he deserve better? Look, if you think this is about overdue fines and missing books, you'd better think again. This is about that kid's right to read a book without getting his mind warped. Or maybe that turns you on, Seinfeld... Maybe that's how you get your kicks... You and your goodtime buddies... I've got a flash for you, joy boy. Partytime is over.",
       author: "Lt. Bookman",
       season: "3",
       episode: "5",
