@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/seinfeld-quotes/precache-manifest.cef2038edbb07672ca28ce8b2fd79a84.js"
+  "/seinfeld-quotes/precache-manifest.e816a7c88c2fa1f327b6dcb0c09adb52.js"
 );
 
 self.addEventListener('message', (event) => {

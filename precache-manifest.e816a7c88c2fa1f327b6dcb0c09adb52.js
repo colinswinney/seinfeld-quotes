@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "60d6acd275b2d40af44e424234d53d21",
+    "revision": "b22777e4115003e6675b88760932276e",
     "url": "/seinfeld-quotes/index.html"
   },
   {
-    "revision": "ca340f1b0e1c78b07b13",
-    "url": "/seinfeld-quotes/static/css/main.49cb5f3c.chunk.css"
+    "revision": "6564eac0ed76a7131082",
+    "url": "/seinfeld-quotes/static/css/main.e0358f11.chunk.css"
   },
   {
     "revision": "19fb0ce3ebb1c060b9e3",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/seinfeld-quotes/static/js/2.ecd538ab.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ca340f1b0e1c78b07b13",
+    "revision": "6564eac0ed76a7131082",
     "url": "/seinfeld-quotes/static/js/main.f4e583ad.chunk.js"
   },
   {
